@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+/* REMOVE ARROWS INPUT TYPE TEXT */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+    -moz-appearance: textfield;
+    appearance: none;
+}
+
+/*************************** NAVBAR ***************************/
+.floatingNav {
+    box-shadow: rgb(0 0 0 / 16%) 0 0 6px;
+    transition: 0.5s;
+}
+
+.navbar-avatar {
+    width: 32px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navbar-avatar:hover {
+    outline: 3px solid #f44336;
+    transition: 0.05s;
+}
+
+.navbar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    color: #212121;
+    font-size: 14px;
+}
+
+.navbar-item:hover {
+    background-color: #fffafa;
+}
+
+.navbar-item-active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    color: #212121;
+    border-bottom: 2px solid #f44336;
+    font-size: 14px;
+}
+
+/*************************** CART ITEM ***************************/
+.cart-item {
+    width: 100%;
+    display: flex;
+}
+
+.cart-item-information-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 0 0 1rem;
+}
+
+.cart-item-product-section {
+    display: flex;
+    width: 60%;
+    gap: 1rem;
+}
+
+.cart-item-quantity-input {
+    border: 1px solid #cfcfcf;
+    border-radius: 0.2rem;
+}
+
+.cart-item-quantity-input input {
+    width: 50px;
+}
+
+.cart-item-price-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 40%;
+}
+
+.cart-item-product-section-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-item-product-section-info-description {
+    margin-top: 1rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.cart-item-product-section-image {
+    width: 220px;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+/*************************** CART  ***************************/
+.title-checkout-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    position: sticky;
+    top: 64px;
+    background-color: white;
+    z-index: 10000;
+}
+
+/*************************** CART TOTAL PRICE ***************************/
+.price-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*************************** PRODUCT DETAIL ***************************/
+.product-detail-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+
+.product-detail-image {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.description-closed {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.description-open {
+    height: fit-content;
+}
+
+@media only screen and (min-width: 900px) {
+    .product-detail-container {
+        flex-direction: row;
+    }
+
+    .product-detail-image {
+        height: 500px;
+    }
+}
+
+/*************************** DROPDOWN PROFILE ***************************/
+.dropdown {
+    position: relative;
+    height: 32px;
+}
+
+.menu {
+    background-color: white;
+    position: absolute;
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 0;
+    left: -118px;
+    width: 150px;
+    box-shadow: rgb(0 0 0 / 16%) 0 0 6px;
+    transition: 0.5s;
+    z-index: 11000;
+}
+
+.menu > li {
+    margin: 0;
+}
+
+.menu > li > button {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 5px;
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+}

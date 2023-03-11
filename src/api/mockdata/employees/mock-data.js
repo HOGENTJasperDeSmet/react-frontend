@@ -1,0 +1,47 @@
+const employeeMocks = [
+    {
+        employeeId: 1,
+        auth0Id: 'auth0|64060996b708beb2836d3b3c',
+        firstName: 'Janeva',
+        lastName: 'Chipman',
+        email: 'jchipman0@cnn.com',
+        telephoneNumber: '3367150163',
+        address: '130.130.55.242',
+        companyId: 71,
+        role: 'Construction Expeditor',
+    },
+    {
+        employeeId: 2,
+        auth0Id: '2',
+        firstName: 'Carrissa',
+        lastName: 'Barukh',
+        email: 'cbarukh1@google.com.br',
+        telephoneNumber: '6171176709',
+        address: '101.208.214.103',
+        companyId: 8,
+        role: 'Construction Foreman',
+    },
+    {
+        employeeId: 3,
+        auth0Id: '3',
+        firstName: 'Alanson',
+        lastName: 'Hernik',
+        email: 'ahernik2@feedburner.com',
+        telephoneNumber: '8732706646',
+        address: '148.31.38.207',
+        companyId: 97,
+        role: 'Construction Foreman',
+    },
+    {
+        employeeId: 4,
+        auth0Id: '4',
+        firstName: 'Colly',
+        lastName: 'Bartaletti',
+        email: 'cbartaletti3@ifeng.com',
+        telephoneNumber: '8115842045',
+        address: '163.93.255.140',
+        companyId: 65,
+        role: 'Electrician',
+    }]
+
+export { employeeMocks };

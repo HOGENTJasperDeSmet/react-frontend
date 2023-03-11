@@ -1,0 +1,68 @@
+{
+    "homepage": "https://HOGENTJasperDeSmet.github.io/testdeployreactapp",
+    "name": "2023-frontend-vc01",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@auth0/auth0-react": "^2.0.1",
+        "@emotion/react": "^11.10.6",
+        "@emotion/styled": "^11.10.6",
+        "@fontsource/roboto": "^4.5.8",
+        "@mui/icons-material": "^5.11.9",
+        "@mui/joy": "^5.0.0-alpha.69",
+        "@mui/material": "^5.11.10",
+        "@mui/x-data-grid": "^6.0.0",
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "@unicef/material-ui-currency-textfield": "^0.8.6",
+        "axios": "^1.3.4",
+        "dotenv": "^16.0.3",
+        "gh-pages": "^5.0.0",
+        "prettier": "^2.8.4",
+        "react": "^18.2.0",
+        "react-bootstrap": "^2.7.2",
+        "react-dom": "^18.2.0",
+        "react-lottie": "^1.2.3",
+        "react-router": "6",
+        "react-router-dom": "6",
+        "react-scripts": "5.0.1",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json}\""
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "cypress": "^12.7.0"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": true
+    }
+}

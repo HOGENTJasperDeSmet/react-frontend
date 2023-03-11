@@ -1,0 +1,13 @@
+{
+    "data": [
+        {
+            "productId": "24",
+            "quantity": 3
+        },
+        {
+            "productId": "52",
+            "quantity": 6
+        }
+    ],
+    "count": 2
+}

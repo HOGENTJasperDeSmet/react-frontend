@@ -1,0 +1,101 @@
+const mockOrders = [
+    {
+        orderDate: '2019-07-04T13:33:03.969Z',
+        orderStatus: 'delivered',
+        deliveryAddress: '72 Cambridge Junction',
+        trackAndTraceNumber: '175673186-1',
+        employeeId: 1
+    },
+    {
+        orderDate: '2019-07-04T13:33:03.969Z',
+        orderStatus: 'order placed',
+        deliveryAddress: '20 Arkansas Road',
+        trackAndTraceNumber: '824868370-2',
+        employeeId: 2,
+    },
+    {
+        orderDate: '2019-07-04T13:33:03.969Z',
+        orderStatus: 'delivered',
+        deliveryAddress: '8788 Heath Park',
+        trackAndTraceNumber: '324924771-5',
+        employeeId: 3,
+    },
+    {
+        orderDate: '2019-07-04T13:33:03.969Z',
+        orderStatus: 'order placed',
+        deliveryAddress: '4 Mayfield Place',
+        trackAndTraceNumber: '391411228-X',
+        employeeId: 4,
+    },
+    {
+        orderDate: '2019-07-04T13:33:03.969Z',
+        orderStatus: 'order placed',
+        deliveryAddress: '00768 East Lane',
+        trackAndTraceNumber: '516906577-9',
+        employeeId: 1,
+    },
+    {
+        orderDate: '2019-07-04T13:33:03.969Z',
+        orderStatus: 'in delivery',
+        deliveryAddress: '4854 Shelley Lane',
+        trackAndTraceNumber: '208872443-5',
+        employeeId: 1,
+    },
+    {
+        orderDate: '2019-07-04T13:33:03.969Z',
+        orderStatus: 'in delivery',
+        deliveryAddress: '04 Macpherson Street',
+        trackAndTraceNumber: '336532653-7',
+        employeeId: 1,
+    },
+    {
+        orderDate: '2019-07-04T13:33:03.969Z',
+        orderStatus: 'in delivery',
+        deliveryAddress: '9680 Cody Alley',
+        trackAndTraceNumber: '441520690-5',
+        employeeId: 1,
+    },
+    {
+        orderDate: '2019-07-04T13:33:03.969Z',
+        orderStatus: 'order placed',
+        deliveryAddress: '28 Heffernan Trail',
+        trackAndTraceNumber: '524134321-0',
+        employeeId: 1,
+    },
+    {
+        orderDate: '2019-07-04T13:33:03.969Z',
+        orderStatus: 'delivered',
+        deliveryAddress: '888 Monument Lane',
+        trackAndTraceNumber: '516848445-X',
+        employeeId: 2,
+    },
+    {
+        orderDate: '2019-07-04T13:33:03.969Z',
+        orderStatus: 'in delivery',
+        deliveryAddress: '741 Jay Circle',
+        trackAndTraceNumber: '003869634-7',
+        employeeId: 3,
+    },
+    {
+        orderDate: '2019-07-04T13:33:03.969Z',
+        orderStatus: 'order placed',
+        deliveryAddress: '9758 Chinook Circle',
+        trackAndTraceNumber: '723715147-9',
+        employeeId: 4,
+    },
+    {
+        orderDate: '2019-07-04T13:33:03.969Z',
+        orderStatus: 'in delivery',
+        deliveryAddress: '2155 Bayside Road',
+        trackAndTraceNumber: '677677890-6',
+        employeeId: 4,
+    },
+    {
+        orderDate: '2019-07-04T13:33:03.969Z',
+        orderStatus: 'in delivery',
+        deliveryAddress: '67 Waxwing Parkway',
+        trackAndTraceNumber: '763781254-5',
+        employeeId: 4,
+    }]
+
+export { mockOrders };
