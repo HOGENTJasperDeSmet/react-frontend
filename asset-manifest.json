@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-frontend/static/css/main.4e71be9a.css",
-    "main.js": "/react-frontend/static/js/main.1b2f078e.js",
+    "main.js": "/react-frontend/static/js/main.351bef00.js",
     "static/js/787.7c899e37.chunk.js": "/react-frontend/static/js/787.7c899e37.chunk.js",
     "static/media/roboto-all-500-normal.woff": "/react-frontend/static/media/roboto-all-500-normal.0ab669b7a0d19b178f57.woff",
     "static/media/roboto-all-700-normal.woff": "/react-frontend/static/media/roboto-all-700-normal.a457fde362a540fcadff.woff",
@@ -38,11 +38,11 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/react-frontend/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/react-frontend/index.html",
     "main.4e71be9a.css.map": "/react-frontend/static/css/main.4e71be9a.css.map",
-    "main.1b2f078e.js.map": "/react-frontend/static/js/main.1b2f078e.js.map",
+    "main.351bef00.js.map": "/react-frontend/static/js/main.351bef00.js.map",
     "787.7c899e37.chunk.js.map": "/react-frontend/static/js/787.7c899e37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e71be9a.css",
-    "static/js/main.1b2f078e.js"
+    "static/js/main.351bef00.js"
   ]
 }
